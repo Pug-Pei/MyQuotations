@@ -1,0 +1,323 @@
+<resources>
+    <string name="app_name">名言つんどく</string>
+
+    <string name="tool_bar_delete_mode">名言つんどく</string>
+
+    <string name="edit_forbidden_toast">名言新規作成時は編集できません</string>
+
+    <string name="duplicate_title_alert">既に存在するタイトルです。作成できません。</string>
+
+    <string name="title_delete_alert">このタイトルを削除します。よろしいですか？</string>
+    <string name="quotation_delete_alert">この名言を削除します。よろしいですか？</string>
+    <string name="alert_btn_ok">OK</string>
+    <string name="alert_btn_not_delete">削除しない</string>
+
+    <string name="notification_check_text">通知</string>
+    <string name="notification_channel_name">WorkManager Notifications</string>
+    <string name="notification_channel_Title">Quotation Notification</string>
+    <string name="notification_channel_Message">Message Demo</string>
+
+    <string name="title_activity_bottom_navigate_test">MainActivity</string>
+
+    <string name="title_add_title">タイトル作成</string>
+    <string name="title_title_order_by">並び替え</string>
+    <string name="title_delete_mode">削除モード</string>
+
+    <string name="title_add_quotation">名言作成</string>
+    <string name="title_quotation_order_by">並び替え</string>
+    <string name="quotation_delete_mode">削除モード</string>
+
+    <string name="title_description">使い方</string>
+
+
+    <string name="id_order_by_ASC">作成日 (古い ➜ 新しい)</string>
+    <string name="id_order_by_DESC">作成日 (新しい ➜ 古い)</string>
+    <string name="title_order_by_ASC">タイトル (あ ➜ ん)</string>
+    <string name="title_order_by_DESC">タイトル (ん ➜ あ)</string>
+    <string name="author_order_by_ASC">著者名 (あ ➜ ん)</string>
+    <string name="author_order_by_DESC">著者名 (ん ➜ あ)</string>
+    <string name="content_order_by_ASC">名言 (あ ➜ ん)</string>
+    <string name="content_order_by_DESC">名言 (ん ➜ あ)</string>
+    <string name="content_id_order_by_ASC">作成日 (古い ➜ 新しい)</string>
+    <string name="content_id_order_by_DESC">作成日 (新しい ➜ 古い)</string>
+
+
+
+    <!--削除モード-->
+    <string name="popup_menu_delete_mode_on">削除モード ON</string>
+    <string name="popup_menu_delete_mode_off">削除モード OFF</string>
+
+
+
+    <!--使い方-->
+    <string name="description_what_kind_of_app_title">どんなアプリ？</string>
+
+    <string name="description_what_kind_of_app">
+        <br>本や映画などで心に残る名言に出会っても、思ったよりも記憶には残りません。</br>
+        <br>\ノートやスマホにメモしたとしても、うまく整理ができず、見返すこともなくなり、結局忘れてしまいませんか？</br>
+        <br>\n</br>
+        <br>\n名言つんどくは...</br>
+        <br>\n・作品ごとに簡単に名言が整理できます。</br>
+        <br>\n・名言が定期的に通知されるので、自然に思いだすことができます。</br>
+        <br>\n</br>
+        <br>\n</br>
+        <br>自分自身を勇気づけたり、励ますような名言を記録して使ってみてください。</br>
+
+</string>
+
+
+
+    <!--フォルダー、名言の作成の説明-->
+    <string name="description_how_to_use_title">
+        使い方
+    </string>
+
+    <string name="description_add_title">
+        フォルダーと名言の作成
+    </string>
+
+    <string name="description_add_holder">
+        フォルダーの作成
+    </string>
+
+    <string name="description_add_1">
+        ➀「タイトル作成」をタップします
+    </string>
+
+    <string name="description_add_2">
+        <br>➁「タイトル」または「著者名」をタップし、内容を変更して下さい。</br>
+        <br>変更後、保存ボタンをタップし、変更内容を保存して下さい。</br>
+        <br>\n</br>
+        <br>\n</br>
+        <br>※著者名が不要の場合、「著者名」の入力欄を空白にして保存して下さい。</br>
+        <br>\n</br>
+        <br>\n</br>
+        <br>※タイトルの入力は必須です。空白の場合、保存ボタンを押してもフォルダーは作成されません。</br>
+    </string>
+
+
+    <string name="description_add_3">
+        <br>➂ 矢印ボタンをタップし、タイトル画面に戻ります。</br>
+    </string>
+
+    <string name="description_add_4">
+        <br>➃ 作成したフォルダーが表示されます。</br>
+    </string>
+
+    <string name="description_add_title2">
+        <br>名言の作成</br>
+    </string>
+
+    <string name="description_update_title_2">
+        <br>名言の変更</br>
+    </string>
+
+    <string name="description_add_6">
+        <br>➀ フォルダーをタップします。</br>
+    </string>
+
+    <string name="description_add_7">
+        <br>➁ 名言作成をタップします。</br>
+    </string>
+
+    <string name="description_add_8">
+        <br>➂ 表示された吹き出しをタップします。</br>
+    </string>
+
+    <string name="description_add_9">
+        <br>➃ 名言を入力し、保存ボタンをタップします。</br>
+    </string>
+
+    <string name="description_add_10">
+        <br>➄ 矢印ボタンをタップします。</br>
+    </string>
+
+    <string name="description_add_11">
+        <br>➅ 作成した名言が表示されます</br>
+    </string>
+
+
+
+    <!--フォルダー、名言の変更の説明-->
+    <string name="description_update_title">
+        フォルダー名などの変更
+    </string>
+
+    <string name="description_update_1">
+        <br>フォルダー名の変更</br>
+    </string>
+
+    <string name="description_update_2">
+        <br>➀ 作成済のホルダーをタップします。</br>
+    </string>
+
+    <string name="description_update_3">
+        <br>➀ 上部のタイトル、または著者名をタップすると変更ができます。</br>
+        <br>変更後、保存ボタンをタップします。</br>
+    </string>
+
+
+    <string name="description_update_4">
+        <br>➁ 矢印ボタンをタップして元の画面に戻ります。</br>
+    </string>
+
+    <string name="description_update_5">
+        <br>➂ 変更した名前のフォルダーが表示されます。</br>
+    </string>
+
+    <string name="description_update_6">
+        <br>➀ フォルダーをタップします。</br>
+    </string>
+
+    <string name="description_update_7">
+        <br>➁ 名言をタップします。</br>
+    </string>
+
+    <string name="description_update_8">
+        <br>➂ 内容を変更し、保存ボタンをタップします。</br>
+        <br>その後矢印ボタンを押し、元の画面に戻ります。</br>
+    </string>
+
+    <string name="description_update_9">
+        <br>➃ 変更した内容が表示されます。</br>
+    </string>
+
+
+
+    <!--フォルダー、名言の削除の説明-->
+    <string name="description_delete_title">
+        データの削除
+    </string>
+
+    <string name="description_delete_1">
+        <br>➀ 削除モードをタップし、削除モードONをタップします。</br>
+    </string>
+
+    <string name="description_delete_2">
+        <br>➁ 削除モードONの間は、部分的に表示が赤くなり、右方向へのスワイプで名言(またはフォルダー)の削除ができます。</br>
+        <br>\n</br>
+        <br>※削除モードONの間は、名言やフォルダーをタップしても画面が切り替わりません。</br>
+    </string>
+
+    <string name="description_delete_3">
+        <br>※削除されたフォルダーや名言は復元できません。</br>
+        <br>\n</br>
+        <br>※タイトルのフォルダーを削除すると、そのタイトルの中の名言も全て削除されます</br>
+    </string>
+
+    <string name="description_delete_4">
+        <br>➃ 削除モードをタップして、削除モードOFFをタップし、元の画面に戻したら完了です。</br>
+    </string>
+
+
+
+    <!--通期機能の説明-->
+    <string name="description_notification_title">
+        通知機能
+    </string>
+
+    <string name="description_notification_1">
+        <br>通知したい名言のチェックマークをONにします。</br>
+    </string>
+
+    <string name="description_notification_2">
+        <br>【通知の対象】</br>
+        <br>\n</br>
+        <br>・通知がONになっている名言がランダムに選択され、通知されます。</br>
+        <br>\n</br>
+        <br>・通知の内容は、1行目がフォルダ名、2行目が名言となっています。</br>
+        <br>\n</br>
+        <br>\n</br>
+        <br>【通知の頻度】</br>
+        <br>\n</br>
+        <br>・最後に通知ボックスのチェックマークのON、OFFを切り替えた場合、または作成済みの名言の内容を変更した場合は周期がリセットされます（周期は4～5時間程度）</br>
+    </string>
+
+    <string name="description_notification_3">
+        <br>【通知内容の確認】</br>
+        <br>\n</br>
+        <br>名言の文字数が一定以上である場合は、内容が省略された状態で通知されます。</br>
+        <br>\n</br>
+        <br>全文を確認する場合は、下記の赤枠内の通知をタップすると、名言画面に切り替わります。</br>
+        <br>\n</br>
+        <br></br>
+    </string>
+
+    <string name="description_notification_4">
+        <br>通知をタップして表示された画面</br>
+    </string>
+
+
+
+    <!--利用規約-->
+    <string name="description_terms_of_service_title">
+        利用規約
+    </string>
+
+    <string name="description_terms_of_service1">
+        <br>（1）本アプリケーション（以下、「本アプリ」と表記）を利用する際には、本利用規約に必ず同意の上、ご利用ください。
+            また、本サービスの全部または一部を利用された場合には、本利用規約に同意されたものとみなされます。</br>
+    </string>
+
+    <string name="description_terms_of_service2">
+        <br>（2）本アプリの利用者（以下、「本アプリ利用者」と表記）は、本利用規約に同意頂き、本アプリをご利用ください。
+     本アプリ利用者は、本規約の内容を理解したうえで、本アプリの利用を、本アプリ利用者の責任で行うものとします。</br>
+    </string>
+
+    <string name="description_terms_of_service3">
+        <br>（3）本利用規約については、本アプリ利用者に対する事前の通知なく変更できるものとします。本利用規約等が変更された後に本アプリを利用された場合には変更後の本利用規約等に同意したものとみなされます。</br>
+    </string>
+
+    <string name="description_terms_of_service4">
+        <br>1. 禁止事項</br>
+        <br>\n</br>
+        <br>本アプリ利用者による本アプリの利用は、本アプリ利用者個人の利用のためのみに制限されます。
+            本アプリの商業的、その他目的での利用および二次利用は一切禁止します。
+            本利用規約等が変更された後に本アプリを利用された場合には変更後の本利用規約等に同意したものとみなされます。</br>
+        <br>\n</br>
+        <br>\n</br>
+
+        <br>2. 免責事項</br>
+        <br>\n</br>
+        <br>本アプリの正確性、健全性、適用性、有用性、動作保証、本アプリ使用機器への適合性その他一切の不具合によって、
+            本アプリ利用者または第三者が被った損害について、開発者はその責任を一切負いません。</br>
+        <br>\n</br>
+        <br>\n</br>
+
+        <br>3. 本アプリの変更、中断、終了</br>
+        <br>\n</br>
+        <br>本アプリ利用者への事前の通知なく、理由の如何を問わず、本アプリの内容、表示、操作方法、その他運営方法を変更し、
+            または本アプリの提供を中断、終了することができます。
+            この場合、開発者はこれらの中断・中止について一切責任を負いません。
+            本利用規約等が変更された後に本アプリを利用された場合には変更後の本利用規約等に同意したものとみなされます。</br>
+        <br>\n</br>
+        <br>\n</br>
+
+        <br>4.本規約の変更等</br>
+        <br>\n</br>
+        <br>開発者は本アプリ利用者の承諾なく、本規約を変更することができ、本規約の変更は、
+            変更後の本規約が本アプリ利用者に閲覧可能な状態におかれた時点より効力を生じるものとします。</br>
+
+    </string>
+
+    <string name="description_privacy_policy_title">
+        プライバシーポリシー
+        <br>\n</br>
+    </string>
+
+    <string name="description_privacy_policy1"><br>【個人情報保護方針】</br>
+        <br>\n</br>
+        <br>■個人情報の取り扱いについて</br>
+        <br>\n</br>
+        <br>本アプリの利用者が作成したすべてのコンテンツは、本アプリの利用者の利用する機器のみに保持されます。
+            本アプリの利用者が作成したコンテンツは外部サーバに転送、保管されません。
+            <br>\n</br>
+            よって、利用者が作成したコンテンツを、本アプリ開発者が取得することはございません。</br>
+    </string>
+
+    <string name="description_email">
+        <br>お問い合わせ先</br>
+        <br>\n</br>
+        <br>devappinearth@gmail.com</br>
+    </string>
+</resources>

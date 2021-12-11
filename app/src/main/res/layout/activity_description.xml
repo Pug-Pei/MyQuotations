@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DescriptionActivity">
+
+    <ImageButton
+        android:id="@+id/description_add_backArrow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_back_blue_48"
+        android:background="@color/light_blue"
+        android:layout_margin="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageButton>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_what_kind_of_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/description_add_backArrow1">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/what_kind_of_app_titleLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/description_what_kind_of_app_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:background="@color/white"
+                    android:text="@string/description_what_kind_of_app_title"
+                    android:textColor="@color/black"
+                    android:textSize="21sp"
+                    />
+
+            </LinearLayout>
+
+            <net.cachapa.expandablelayout.ExpandableLayout
+                android:id="@+id/expandableLayout_what_kind_of_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                app:el_duration="500"
+                app:el_expanded="false"
+                app:el_parallax="0.3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/what_kind_of_app_titleLayout">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_margin="8dp">
+
+                    <TextView
+                        android:id="@+id/description_what_kind_of_app_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:background="@color/white"
+                        android:padding="10dp"
+                        android:text="@string/description_what_kind_of_app"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </net.cachapa.expandablelayout.ExpandableLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/description_how_to_use_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/description_how_to_use_title"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/card_view_what_kind_of_app" />
+
+    <LinearLayout
+        android:id="@+id/description_how_to_use_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_how_to_use_title_text">
+
+        <TextView
+            android:id="@+id/description_add_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/quotation_content_background"
+            android:drawableLeft="@drawable/ic_baseline_playlist_add_32"
+            android:drawablePadding="10dp"
+            android:elevation="5dp"
+            android:paddingTop="22dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="13dp"
+            android:paddingLeft="15dp"
+            android:text="@string/description_add_title"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/description_update_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/quotation_content_background"
+            android:drawableLeft="@drawable/ic_baseline_change_circle_32"
+            android:drawablePadding="10dp"
+            android:elevation="5dp"
+            android:paddingTop="22dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="13dp"
+            android:paddingLeft="15dp"
+            android:text="@string/description_update_title"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/description_delete_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/quotation_content_background"
+            android:drawableLeft="@drawable/ic_baseline_delete_32"
+            android:drawablePadding="10dp"
+            android:elevation="5dp"
+            android:paddingTop="22dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="13dp"
+            android:paddingLeft="15dp"
+            android:text="@string/description_delete_title"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/description_notification_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/quotation_content_background"
+            android:drawableLeft="@drawable/ic_baseline_notifications_32"
+            android:drawablePadding="10dp"
+            android:elevation="5dp"
+            android:paddingTop="22dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="13dp"
+            android:paddingLeft="15dp"
+            android:text="@string/description_notification_title"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/description_terms_of_service_titleLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="36dp"
+            android:background="@drawable/quotation_content_background"
+            android:drawableLeft="@drawable/ic_baseline_gavel_32"
+            android:text="@string/description_terms_of_service_title"
+            android:drawablePadding="10dp"
+            android:elevation="5dp"
+            android:paddingTop="22dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="13dp"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

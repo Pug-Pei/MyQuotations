@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_quotation_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="vertical"
+    android:background="#1000a1">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/back_arrow_container"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:visibility="visible">
+
+    <ImageButton
+        android:id="@+id/toolbar_back_arrow"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:background="?attr/selectableItemBackground"
+        />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/button_container"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:visibility="gone">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:text="保存"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="-5dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/light_black"
+            android:fontFamily="@font/roboto"
+            android:backgroundTint="#def0ff"
+            android:elevation="4dp"
+            android:id="@+id/toolbar_save_button" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/quotation_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="6dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/ic_baseline_list_alt_20"
+        android:drawablePadding="7dp"
+        android:fontFamily="@font/roboto"
+        android:visibility="visible"/>
+
+    <EditText
+        android:id="@+id/quotation_edit_title"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="6dp"
+        android:background="@drawable/edit_text_background"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_baseline_list_alt_20"
+        android:drawablePadding="7dp"
+        android:drawableTint="@color/deep_blue"
+        android:fontFamily="@font/roboto"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/quotation_text_authorname"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="6dp"
+        android:text=""
+        android:textColor="#FDFDFD"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/ic_baseline_person_20"
+        android:drawableTint="#ffe521"
+        android:drawablePadding="7dp"
+        android:fontFamily="@font/roboto"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/quotation_edit_authorname"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="6dp"
+        android:background="@drawable/edit_text_background"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_baseline_person_20"
+        android:drawableTint="@color/deep_blue"
+        android:drawablePadding="7dp"
+        android:fontFamily="@font/roboto"
+        android:visibility="gone" />
+
+</LinearLayout>
+
+

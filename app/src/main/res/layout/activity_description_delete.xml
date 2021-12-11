@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DescriptionDeleteActivity">
+
+    <ImageButton
+        android:id="@+id/description_delete_backArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_back_blue_48"
+        android:background="#f1f1f1"
+        android:layout_margin="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/description_delete_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/description_delete_1"
+        android:textSize="18sp"
+        android:textColor="#2B2B2B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_delete_backArrow" />
+
+    <ImageView
+        android:id="@+id/description_delete_1_ImageView"
+        android:layout_width="250dp"
+        android:layout_height="500dp"
+        android:src="@drawable/quotation_delete_mode_on_before_tap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_delete_1" />
+
+    <TextView
+        android:id="@+id/description_delete_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/description_delete_2"
+        android:textColor="#2B2B2B"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_delete_1_ImageView" />
+
+    <ImageView
+        android:id="@+id/description_delete_2_ImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/quotation_delete_mode_on"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_delete_2" />
+
+    <ImageView
+        android:id="@+id/description_delete_3_ImageView"
+        android:layout_width="250dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/quotation_delete_mode_on_swiping"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_delete_2_ImageView" />
+
+    <TextView
+        android:id="@+id/description_delete_3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/description_delete_3"
+        android:textColor="@color/deep_red"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_delete_3_ImageView" />
+
+    <TextView
+        android:id="@+id/description_delete_4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/description_delete_4"
+        android:textColor="#2B2B2B"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_delete_3" />
+
+    <ImageView
+        android:id="@+id/description_delete_4_ImageView"
+        android:layout_width="250dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/quotation_delete_mode_off_before_tap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_delete_4" />
+
+    <ImageButton
+        android:id="@+id/description_delete_backArrow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#f1f1f1"
+        android:src="@drawable/ic_baseline_arrow_back_blue_48"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_delete_4_ImageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#def0ff">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1000a1">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/quotation_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/layout_quotation_toolbar"/>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <EditText
+        android:id="@+id/quotation_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:inputType="textMultiLine"
+        android:paddingTop="5dp"
+        android:paddingRight="13dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="13dp"
+        android:textSize="18sp"
+        android:textColor="#2B2B2B"
+        android:background="@drawable/quotation_content_background"
+        android:gravity="top"
+        android:elevation="4dp">
+    </EditText>
+
+    <View
+        android:id="@+id/view_rhombus_material"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="#FDFDFD"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="10dp"
+        android:rotation="45"
+        android:elevation="4dp"/>
+
+</LinearLayout>

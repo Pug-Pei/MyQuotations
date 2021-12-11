@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_add_title"
+        android:icon="@drawable/ic_baseline_playlist_add_24"
+        android:title="@string/title_add_title"
+        android:iconTint="#1000a1"/>
+
+    <item
+        android:id="@+id/navigation_title_sort"
+        android:icon="@drawable/ic_baseline_filter_list_24"
+        android:title="@string/title_title_order_by"/>
+
+    <item
+        android:id="@+id/navigation_title_delete_mode"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="@string/title_delete_mode" />
+
+    <item
+        android:id="@+id/navigation_description"
+        android:icon="@drawable/ic_baseline_description_24"
+        android:title="@string/title_description" />
+
+</menu>

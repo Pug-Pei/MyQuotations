@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/light_blue"
+            android:orientation="vertical"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.074">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/deep_blue">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/quotation_toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <include layout="@layout/layout_quotation_toolbar_nontext" />
+
+                </androidx.appcompat.widget.Toolbar>
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+
+            <EditText
+                android:id="@+id/quotation_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="@drawable/quotation_content_background"
+                android:elevation="4dp"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:paddingLeft="13dp"
+                android:paddingTop="5dp"
+                android:paddingRight="13dp"
+                android:paddingBottom="5dp"
+                android:textColor="#2B2B2B"
+                android:textSize="16sp">
+            </EditText>
+
+            <View
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="-38dp"
+                android:background="@color/white"
+                android:elevation="4dp"
+                android:rotation="45" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="4dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9182262619189802/4193312796"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+    </com.google.android.gms.ads.AdView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
